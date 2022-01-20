@@ -1,4 +1,4 @@
-body {
+.image {
     background-image: url("../img/header.jpg");
 }
 
@@ -7,7 +7,16 @@ header {
     padding-bottom: 3rem;
 }
 
-div .logo {
-    display: block;
+.logo {
+    text-align: center;
+    color: white;
 }
-    
+
+.logo p {
+    font-size: 30px;
+}
+
+.container img {
+    height: 150px;
+    width: auto;
+}
