@@ -1,0 +1,13 @@
+body {
+    background-image: url("../img/header.jpg");
+}
+
+header {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+div .logo {
+    display: block;
+}
+    
