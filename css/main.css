@@ -15,3 +15,25 @@
 .title a {
     font-family: "courgette";
 }
+
+footer {
+    background-color: black;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+footer ul {
+    list-style-type: none;
+    color: white;
+    padding-left: 0px;
+}
+
+footer ul a {
+    color: white;
+}
+
+
+footer p {
+    font-family: "courgette";
+}

@@ -18,9 +18,29 @@ header p {
     font-family: "courgette";
 }
 
+h4 {
+    font-family: "courgette";
+}
+
+form p {
+    font-family: "courgette";
+}
+
+div .search {
+    padding-bottom: 10px;
+}
+
+.mail p {
+    margin-bottom: 1px;
+}
+
 .logo {
     text-align: center;
     color: white;
+}
+
+.socials {
+    padding-top: 20px;
 }
 
 .logo p {
@@ -58,28 +78,15 @@ form p {
     margin-bottom: 8px;
 }
 
-footer {
-    background-color: black;
-    color: white;
-    padding-top: 40px;
-    padding-bottom: 60px;
-}
-
 .precedent {
     padding-top: 20px;
     padding-bottom: 40px;
-}
-
-footer ul {
-    list-style-type: none;
-    color: white;
-    padding-left: 0px;
 }
 
 .last-article {
     padding-top: 40px;
 }
 
-footer ul a {
-    color: white;
+h5 {
+    font-family: "courgette";
 }
