@@ -9,5 +9,9 @@
 }
 
 * {
+    font-family: "Oswald";
+}
+
+.title a {
     font-family: "courgette";
 }

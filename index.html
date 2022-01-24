@@ -17,7 +17,7 @@
     <div class="image">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-opacity-50 border">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Cui'zine</a>
+                <div class="title"><a class="navbar-brand" href="#">Cui'zine</a></div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -94,7 +94,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="precedent"><p>« Voir les articles précédents</p></div>
+                <div class="precedent">
+                    <p>« Voir les articles précédents</p>
+                </div>
             </div>
             <div class="col-2">
                 <form>
@@ -132,19 +134,50 @@
     <footer>
         <div class="container">
             <div class="row align-items-start">
-                <div class="col">
+                <div class="col-4">
                     <h5>Catégories</h5>
+                    <div class="categories">
+                        <ul>
+                            <li><a href="#">Revue</a></li>
+                            <li><a href="#">Recettes</a></li>
+                            <li><a href="#">Découvertes</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <h5>Archives</h5>
+                    <div class="categories">
+                        <ul>
+                            <li><a href="#">2019</a></li>
+                            <li><a href="#">2018</a></li>
+                            <li><a href="#">2017</a></li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="col">
-                    One of three columns
-                </div>
-                <div class="col">
-                    One of three columns
+                    <p>Newsletter</p>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Email..." aria-label="Recipient's username"
+                            aria-describedby="button-addon2">
+                        <button class="btn btn-outline-secondary" type="button" id="button-addon2">S'inscrire</button>
+                    </div>
+
+                    <div class="socials">
+                        <p>Partager</p>
+                        <i class="fab fa-facebook-square"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-youtube"></i>
+                        <i class="fab fa-twitter"></i>
+
+
+                    </div>
+
+
                 </div>
             </div>
-           
-           
-        </div>
+
+
+
 
 
 

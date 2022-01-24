@@ -10,6 +10,14 @@ header {
     background-color: rgb(0,0,0,0.5);
 }
 
+header h2 {
+    font-family: "courgette";
+}
+
+header p {
+    font-family: "courgette";
+}
+
 .logo {
     text-align: center;
     color: white;
@@ -53,10 +61,25 @@ form p {
 footer {
     background-color: black;
     color: white;
-    padding-top: 20px;
+    padding-top: 40px;
+    padding-bottom: 60px;
 }
 
 .precedent {
     padding-top: 20px;
     padding-bottom: 40px;
+}
+
+footer ul {
+    list-style-type: none;
+    color: white;
+    padding-left: 0px;
+}
+
+.last-article {
+    padding-top: 40px;
+}
+
+footer ul a {
+    color: white;
 }
