@@ -1,0 +1,32 @@
+.image {
+    background-image: url("../img/header.jpg");
+    background-position-x: center ;
+    background-position-y: center ;
+}
+
+header {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: rgb(0,0,0,0.5);
+}
+
+.logo {
+    text-align: center;
+    color: white;
+}
+
+img {
+    height: 50px;
+}
+
+.adress ul {
+    list-style-type: none;
+}
+
+.adress ul a {
+    color: gray;
+}
+
+.row + a {
+    color: black;
+}
