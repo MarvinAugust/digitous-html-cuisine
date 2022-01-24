@@ -41,3 +41,22 @@ header {
 .search {
     padding-bottom: 2rem;
 }
+
+form {
+    margin-top: 80px;
+}
+
+form p {
+    margin-bottom: 8px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+}
+
+.precedent {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
